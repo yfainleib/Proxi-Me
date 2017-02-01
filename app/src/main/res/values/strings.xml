@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Proxi-Me</string>
+    <string name="search_text">Enter a Place to Search</string>
+    <string name="search_radius_units">Search Radius Units</string>
+    <string name="search_radius">Search Radius</string>
+    <string name="meters">meters</string>
+    <string name="kilometers">kilometers</string>
+    <string name="miles">miles</string>
+    <string name="km">km</string>
+    <string name="mi">mi</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_preferences">Preferences</string>
+    <string name="add_share_place_dialog_title">Share/Add to Favorites</string>
+    <string name="add_share_place_dialog_message">Would you like to add this place to your favorites or to share it with friends?</string>
+    <string name="delete_share_place_dialog_title">Share/Delete Favorite</string>
+    <string name="delete_share_place_dialog_message">Would you like to share this place or to delete it from favorites?</string>
+    <string name="share_button">Share</string>
+    <string name="add_button">Add</string>
+    <string name="delete_button">Delete</string>
+    <string name="favorite_shared">Check out this amazing place: </string>
+    <string name="at">at</string>
+    <string name="choose_service">Choose your sharing method</string>
+    <string name="about_title">About:</string>
+    <string name="icon_credits">This app is using icons from  https://icons8.com/</string>
+    <string name="no_internet_dialog_title">There is no Connection to the Internet</string>
+    <string name="no_internet_dialog_message">Please try again later</string>
+    <string name="no_results_dialog_title">Your search produced no results</string>
+    <string name="no_results_dialog_message">Enter another search</string>
+    <string name="text_empty_dialog_title">The search text field is empty</string>
+    <string name="text_empty_dialog_message">Enter search keywords or use the other button</string>
+    <string name="dialog_positive_button">OK</string>
+    <string name="search_text_hint">enter search keywords</string>
+    <string name="coordinates">Your coordinates are: </string>
+    <string name="phone_plugged">Your phone is plugged into a power source</string>
+    <string name="phone_unplugged">Your phone is unplugged from a power source</string>
+    <string name="no_permissions_dialog_title">No permissions - no app!</string>
+    <string name="no_permissions_dialog_message">You won\'t be able to use this app without access to your location</string>
+
+    <string-array name="search_radius">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="search_radius_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+
+    <string-array name="search_units">
+        <item>@string/kilometers</item>
+        <item>@string/miles</item>
+    </string-array>
+
+    <string-array name="search_units_values">
+        <item>@string/km</item>
+        <item>@string/mi</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

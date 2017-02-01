@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="search_radius_units"
+        android:title="@string/search_radius_units"
+        android:entries="@array/search_units"
+        android:entryValues="@array/search_units_values"
+        />
+
+    <ListPreference
+        android:key="search_radius"
+        android:title="@string/search_radius"
+        android:entries="@array/search_radius"
+        android:entryValues="@array/search_radius_values"
+        />
+
+    <Preference
+        android:key="about"
+        android:title="@string/about_title"
+        android:summary="@string/icon_credits"
+    />
+
+</PreferenceScreen>

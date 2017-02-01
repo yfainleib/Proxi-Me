@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/search_results_fragment_layout"
+    tools:context=".SearchResultsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/search_text"
+            android:layout_weight="1"
+            android:hint="@string/search_text_hint" />
+
+        <ImageButton
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            app:srcCompat="@drawable/search_keyword"
+            android:id="@+id/search_btn"
+            android:layout_gravity="right" />
+
+        <ImageButton
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            app:srcCompat="@drawable/wind_rose"
+            android:id="@+id/getNear_btn"
+            android:layout_gravity="right" />
+
+
+
+    </LinearLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/searchResults"/>
+</LinearLayout>
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_results_progress_bar"
+        android:visibility="gone"
+        android:layout_gravity="center_vertical|center_horizontal" />
+</FrameLayout>

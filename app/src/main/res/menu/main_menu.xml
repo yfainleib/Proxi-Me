@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Main Screen"
+        android:id="@+id/main_screen_item"
+        android:icon="@drawable/near_me"
+        app:showAsAction="always" />
+    <item android:title="Favorites"
+        android:id="@+id/favorites_item"
+        android:icon="@drawable/add_favorites"
+        app:showAsAction="always" />
+    <item android:title="Delete All"
+        android:id="@+id/delete_all"
+        android:icon="@drawable/delete_favorites"
+        app:showAsAction="always" />
+    <item android:id="@+id/settings_item"
+        android:icon="@drawable/settings2"
+        app:showAsAction="always"
+        android:title="Settings" />
+</menu>
